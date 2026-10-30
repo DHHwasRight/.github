@@ -54,6 +54,6 @@ translation key, or a template that does not type-check fails the build, not
 the request. That rule also makes the code easy for a model to write, which
 is how most of it got written.
 
-<sub>Logo: a crab (Rust) in vibe-coder shades, on a railway track (Rails), at
+<sub>Logo: a Ferris-shaped crab (Rust) in vibe-coder shades, on a railway track (Rails), at
 sunset. 64×64 pixels, drawn by code in
-<a href="https://github.com/DHHwasRight/.github/blob/main/tools/crab64.py"><code>tools/crab64.py</code></a>.</sub>
+<a href="https://github.com/DHHwasRight/.github/blob/main/tools/logo.py"><code>tools/logo.py</code></a>.</sub>
