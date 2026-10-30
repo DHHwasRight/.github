@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/DHHwasRight/.github/main/profile/logo.png" width="160" alt="A spiky pixel-art crab in purple sunglasses, at sunset">
-</p>
-
 <h1 align="center">DHH was right</h1>
 
 <p align="center"><b>Taking the Rails claims at their word, in Rust.</b></p>
@@ -53,6 +49,3 @@ Mistakes should be compile errors. A misspelled column in a policy, a missing
 translation key, or a template that does not type-check fails the build, not
 the request. That rule also makes the code easy for a model to write, which
 is how most of it got written.
-
-<sub>Logo: a spiky pixel crab (Rust) in vibe-coder shades, at sunset. The crab is
-adapted from the <code>#rustacean</code> pixel sticker by hipstuff.</sub>
