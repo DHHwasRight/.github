@@ -43,9 +43,9 @@ later sprint.
 ## Start small, move out as you grow
 
 Small apps run on one Postgres and one binary. Each piece sits behind a trait,
-so when one part outgrows Postgres you move only that part: the queue's outbox
-can relay to an external broker, and the cache can move to its own store. The rest of the app does
-not change.
+so when one part outgrows Postgres you move only that part: the queue and the
+cache sit behind traits, so an external broker or cache store can replace
+the Postgres one. The rest of the app does not change.
 
 ## How it is built
 
@@ -54,5 +54,6 @@ translation key, or a template that does not type-check fails the build, not
 the request. That rule also makes the code easy for a model to write, which
 is how most of it got written.
 
-<sub>Logo: a crab (Rust) on a railway track (Rails), in vibe-coder shades. 32×32
-pixels, drawn as text in <a href="https://github.com/DHHwasRight/.github/blob/main/tools/art.py"><code>tools/art.py</code></a>.</sub>
+<sub>Logo: a crab (Rust) in vibe-coder shades, on a railway track (Rails), at
+sunset. 64×64 pixels, drawn by code in
+<a href="https://github.com/DHHwasRight/.github/blob/main/tools/crab64.py"><code>tools/crab64.py</code></a>.</sub>
