@@ -1,14 +1,17 @@
 <h1 align="center">DHH was right</h1>
 
-<p align="center"><b>Taking the Rails claims at their word, in Rust.</b></p>
+<p align="center"><b>The best ideas of many web frameworks, in compiled, typed code.</b></p>
 
 ---
 
-The name comes from RailsConf 2026. This org tries to build what DHH claims a
-web stack should be, and to find out how far it gets in Rust:
+The name comes from RailsConf 2026, but we do not follow only Rails. This org
+takes ideas from Rails, Django, PocketBase, Next.js and Astro, builds a web
+stack from them, and finds out how far it gets in Rust:
 
+- **Compiled, statically typed languages.** Rust on the server, TypeScript in
+  the browser. These languages suit LLM work best: the compiler and the types
+  catch the mistakes of the model before the code runs.
 - **HTML over the wire.** The server renders. The client swaps fragments.
-- **No build step** for the front end.
 - **One database.** Postgres holds the data, the queue, the cache and the
   realtime fan-out.
 - **One framework that hands you the whole stack**, from routes to background
